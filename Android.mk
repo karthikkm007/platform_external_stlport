@@ -6,12 +6,14 @@ STLPORT_WHITELIST := \
     flo \
     flounder \
     fugu \
+    geeb \
+    geehrc \
     grouper \
     hammerhead \
     mako \
     manta \
     shamu \
-    tilapia \
+    tilapia
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
